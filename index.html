@@ -13,7 +13,7 @@
 <body>
   <header>
     <!-- <Navbar> -->
-    <nav class="navbar bg-body-tertiary fixed-top">
+    <nav class="navbar bg-body-tertiary fixed-top ">
       <div class="container-fluid">
         <img src="./image/logo/GoodPayBanner.png" alt="Logo banner" id="logo-header">
         <a class="navbar-brand" href="#">Escolha o Melhor!</a>
@@ -45,7 +45,28 @@
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                   data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    Login GoodPay (conteúdo)
+                    <!-- FORM LOGIN - INICIO -->
+                    <form>
+                      <div class="input-group input-group-lg mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                        <input id="email" type="text" required class="form-control" aria-label="Sizing example input"
+                          aria-describedby="inputGroup-sizing-default" />
+                      </div>
+                      <div class="input-group input-group-lg mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Senha</span>
+                        <input id="senha" type="password" required class="form-control"
+                          aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                      </div>
+                      <div class="d-grid gap-2">
+                        <button id="btn-entrar" type="button" class="btn btn-outline-success">
+                          Entrar
+                        </button>
+                        <button class="btn btn-outline-dark" type="button">
+                          Cadastrar
+                        </button>
+                      </div>
+                    </form>
+                    <!-- FORM LOGIN - FIM-->
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -92,44 +113,86 @@
   </header>
 
   <main class="container">
-    <!-- <CAROUSEL> -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <!-- CAROUSEL - INICIO -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./image/banner/BannerGoodPay.png" class="d-block w-100" alt="Banner Carousel">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <!-- CARD1 - INICIO -->
+          <div class="card">
+            <img src="./image/banner/BannerGoodPay.png" class="d-block w-100" alt="Banner Carousel">
+            <div class="card-body">
+              <h3 class="card-title">Aproveite as promoções de hoje.</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut magnam recusandae adipisci voluptas
+                eos enim, beatae asperiores, molestias temporibus unde ex reiciendis blanditiis? Ullam ducimus iste nisi
+                quisquam eius.
+              </p>
+            </div>
           </div>
+          <!-- CARD1 - FIM -->
         </div>
         <div class="carousel-item">
-          <img src="./image/banner/BannerGoodPay2.png" class="d-block w-100" alt="Banner Carousel">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <!-- CARD2 - INICIO -->
+          <div class="card">
+            <img src="./image/banner/BannerGoodPay2.png" class="d-block w-100" alt="Banner Carousel">
+            <div class="card-body">
+              <h3 class="card-title">Aproveite as promoções de hoje.</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut magnam recusandae adipisci voluptas
+                eos enim, beatae asperiores, molestias temporibus unde ex reiciendis blanditiis? Ullam ducimus iste nisi
+                quisquam eius.
+              </p>
+            </div>
           </div>
+          <!-- CARD2 - FIM -->
         </div>
         <div class="carousel-item">
-          <img src="./image/banner/BannerGoodPay3.png" class="d-block w-100" alt="Banner Carousel">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <!-- CARD3 - INICIO -->
+          <div class="card">
+            <img src="./image/banner/BannerGoodPay3.png" class="d-block w-100" alt="Banner Carousel">
+            <div class="card-body">
+              <h3 class="card-title">Aproveite as promoções de hoje.</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut magnam recusandae adipisci voluptas
+                eos enim, beatae asperiores, molestias temporibus unde ex reiciendis blanditiis? Ullam ducimus iste nisi
+                quisquam eius.
+              </p>
+            </div>
           </div>
+          <!-- CARD3 - FIM -->
         </div>
         <div class="carousel-item">
-          <img src="./image/banner/BannerGoodPay4.png" class="d-block w-100" alt="Banner Carousel">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <!-- CARD4 - INICIO -->
+          <div class="card">
+            <img src="./image/banner/BannerGoodPay4.png" class="d-block w-100" alt="Banner Carousel">
+            <div class="card-body">
+              <h3 class="card-title">Aproveite as promoções de hoje.</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut magnam recusandae adipisci voluptas
+                eos enim, beatae asperiores, molestias temporibus unde ex reiciendis blanditiis? Ullam ducimus iste nisi
+                quisquam eius.
+              </p>
+            </div>
           </div>
+          <!-- CARD4 - FIM -->
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
@@ -139,12 +202,10 @@
   </main>
 
 
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <script src="script/script.js"></script>
+  <script src="script/main.js"></script>
 </body>
 
 </html>

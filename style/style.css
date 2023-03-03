@@ -9,5 +9,12 @@
 }
 
 main {
-  margin-top: 100PX;
+  margin-top: 90px;
+}
+
+.carousel-indicators {
+  bottom: none !important;
+  margin-bottom: none !important;
+  top: 0;
+  margin-top: 1rem;
 }
